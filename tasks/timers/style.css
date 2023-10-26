@@ -116,3 +116,19 @@ body {
 .timer__line.active,  .timer__buttons-stop.active {
     background-color: #ffffff;
 }
+
+
+
+@media (max-width: 1024px) {
+    .container_for_timers {
+        width: 820px;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .container_for_timers {
+        width: 540px;
+        justify-content: center;
+        margin-left: 45px;
+    }
+}
